@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@
                 <img src="images/burger.svg" alt="hamburger menu icon">
             </label>
                 <ul id="burger-con">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="room.html">Rooms</a></li>
                     <li><a href="#">Packages</a></li>
                     <li><a href="#">Dining</a></li>
@@ -208,143 +208,5 @@ All rooms have the following basic amenities</p>
     </footer>
 
 </body>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/room.css" rel="stylesheet">
-    <title>Rooms — Couples Resort</title>
-</head>
-<body>
-    <h1 class="hidden">Rooms — Couples Resort</h1>
-    <div id="mobile-outline">
-    <header id="main-header" class="grid-con">
-        <nav id="main-nav" class="col-span-full">
-            <h2 class="hidden">Main Navigation</h2>
-            <input type="checkbox" id="hamburger">
-            <label for="hamburger">
-                <img src="images/burger.svg" alt="hamburger menu icon">
-            </label>
-            <ul id="burger-con">
-                <li><a href="index.html">Home</a></li>
-                <li><a class="selected" href="rooms.html">Rooms</a></li>
-                <li><a href="packages.html">Packages</a></li>
-                <li><a href="dining.html">Dining</a></li>
-                <li><a href="activities.html">Spa Activities</a></li>
-                <li><a href="reservations.html">Reservations</a></li>
-            </ul>
-        </nav>
-
-        <div id="logo" class="col-span-full">
-            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
-        </div>
-    </header>
-
-    <main>
-        <!-- Hero -->
-        <section id="main-hero" class="grid-full">
-            <img src="images/rooms-hero.jpg" alt="luxury room overlooking lake" class="col-span-full hero-overlap">
-            <div class="grid-con col-span-full hero-overlap">
-                <a class="book-now col-start-3 col-end-5" id="book-now-top" href="#">Book Now</a>
-                <h2 class="hero-img-h2"><span>Rooms & Suites</span><br> Our Handcrafted Suites for Two</h2>
-            </div>
-        </section>
-
-        <!-- Intro -->
-        <section id="hero-welcome" class="grid-con">
-            <h2 class="hidden">Rooms Intro</h2>
-            <p class="col-span-full">Our rooms are uniquely designed for privacy and romance — from Old European opulence to natural Algonquin charm. Each suite features private outdoor hot tubs, fireplaces, premium linens and lake views.</p>
-            <p class="col-span-full">Select a room below to view features, layout and availability.</p>
-        </section>
-
-        <!-- Rooms grid -->
-        <section id="rooms-list" class="grid-con">
-            <!-- Room 1 -->
-            <article class="col-span-full why-us-img">
-                <img src="images/room-lakefront.jpg" alt="Lakefront Suite">
-                <div>
-                    <h3>Lakefront Suite</h3>
-                    <p>Private deck with outdoor hot tub, king bed, walkout balcony and panoramic lake views. European shower and wood-burning fireplace.</p>
-                    <p><strong>Includes:</strong> Complimentary breakfast, fibre-optic WiFi, in-suite Netflix.</p>
-                    <a href="#" class="book-now col-start-3 col-end-5" style="height:44px; align-self:flex-start; display:inline-flex; padding:0 10px; font-size:14px;">View & Book</a>
-                </div>
-            </article>
-
-            <!-- Room 2 -->
-            <article class="col-span-full why-us-img">
-                <img src="images/room-algonquin.jpg" alt="Algonquin Luxury Cabin">
-                <div>
-                    <h3>Algonquin Luxury Cabin</h3>
-                    <p>Natural wood finishes and private hot tub. Perfect for cozy evenings and long, uninterrupted sleeps under the stars.</p>
-                    <a href="#" class="book-now col-start-3 col-end-5" style="height:44px; align-self:flex-start; display:inline-flex; padding:0 10px; font-size:14px;">View & Book</a>
-                </div>
-            </article>
-
-            <!-- Room 3 -->
-            <article class="col-span-full why-us-img">
-                <img src="images/room-old-europe.jpg" alt="Old European Suite">
-                <div>
-                    <h3>Old European Suite</h3>
-                    <p>Opulent décor, whirlpool bath, high ceilings and romantic accents. Includes gourmet in-room breakfast service.</p>
-                    <a href="#" class="book-now col-start-3 col-end-5" style="height:44px; align-self:flex-start; display:inline-flex; padding:0 10px; font-size:14px;">View & Book</a>
-                </div>
-            </article>
-
-            <!-- Pagination-style nav (reuse bottom nav style) -->
-            <nav id="why-choose-us-bottom-nav" class="col-span-full">
-                <ol>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                </ol>
-            </nav>
-        </section>
-
-        <!-- Amenities / FAQ -->
-        <section class="faq grid-con">
-            <h2 class="col-span-full"><span>Rooms</span><br> Amenities & FAQ</h2>
-
-            <div class="faq-items col-span-full">
-                <h3>&#9658; Private Hot Tubs & Fireplaces</h3>
-            </div>
-
-            <div class="faq-items col-span-full">
-                <h3>&#9658; Bedding & In-room Services</h3>
-            </div>
-
-            <div class="faq-items col-span-full">
-                <h3>&#9658; Accessibility & Special Requests</h3>
-            </div>
-        </section>
-
-        <!-- Contact CTA -->
-        <section id="contact-form-hero" class="grid-full">
-            <img src="images/contact-hero.jpg" alt="couple embracing overlooking a lake" class="col-span-full hero-overlap">
-            <div class="grid-con col-span-full hero-overlap">
-                <h2 class="hero-img-h2"><span>Reserve Your Room</span><br> Contact us for special requests</h2>
-            </div>
-        </section>
-
-    </main>
-
-    <footer id="main-footer" class="grid-con">
-        <h2 class="hidden">Couples Resort Footer</h2>
-        <div id="main-footer-contact-info" class="col-span-full">
-            <h3>Couples Resort</h3>
-            <p>1198 Osprey Rd, (End of)<br>Minden, Soyers Lake, ON, K0M 2K0</p>
-            <p>Toll Free:+1 877 201-1156<br>FAX:+1 613 638 2217</p>
-        </div>
-
-        <p id="price-policy" class="col-span-full">All prices and services on this website and in our reservation system are based on conditions at the time of publishing and are subject to change. ©2013 Couples Resort Inc. All Rights Reserved. Privacy Policy </p>
-    </footer>
-    </div>
-</body>
 </html>
+
