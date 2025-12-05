@@ -1,52 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <title>Document</title>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
+<link href="css/grid.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<title>Seasonal Packages | Couples Resort</title>
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d0e8431583.js" crossorigin="anonymous"></script>
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/room.css" rel="stylesheet">
-    <title></title>
-</head>
-<body>
-    <h1 class="hidden">Couples Resort Packages in the Seasons for Lovely Couples</h1>
-    <div id="mobile-outline">
-    <header id="main-header" class="grid-con">
-        <nav id="main-nav" class="col-span-full">
-            <h2 class="hidden">Main Navigation</h2>
-            <input type="checkbox" id="hamburger">
-            <label for="hamburger">
-                <img src="images/burger.svg" alt="hamburger menu icon">
-            </label>
-                <ul id="burger-con">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="room.html">Rooms</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Dining</a></li>
-                    <li><a href="activities.html">Acitivities</a></li>
-                    <li><a href="seasonal.html">Seasonal</a></li>
-                </ul>
-        </nav>
-        <div id="logo" class="col-span-full">
-            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+<div id="mobile-outline">
+
+<header id="main-header" class="grid-con">
+    <nav id="main-nav" class="col-span-full">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger">
+            <img src="images/burger.svg" alt="hamburger menu icon">
+        </label>
+        <ul id="burger-con">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="room.html">Rooms</a></li>
+            <li><a href="activities.html">Activities</a></li>
+            <li><a href="#">Dining</a></li>
+            <li><a class="selected" href="seasonal.html">Seasonal Packages</a></li>
+            <li><a href="#">Reservations</a></li>
+        </ul>
+    </nav>
+    <div id="logo" class="col-span-full">
+        <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+    </div>
+</header>
+
+<main>
+
+<!-- Hero Section -->
+<section class="grid-full">
+    <img src="images/seasonal-hero.jpg" alt="seasonal packages" class="col-span-full hero-overlap">
+    <div class="grid-con col-span-full hero-overlap">
+        <h2 class="hero-img-h2"><span>Couples Resort</span><br> Seasonal Packages</h2>
+    </div>
+</section>
+
+<!-- Intro Text -->
+<section class="grid-con">
+    <p class="col-span-full">
+        Exclusive seasonal offers to reconnect and enjoy nature. Each season brings unique experiences for couples.
+    </p>
+</section>
+
+<!-- Packages List -->
+<section class="grid-con">
+    <div class="col-span-full why-us-img">
+        <img src="images/summer-package.jpg" alt="summer package">
+        <div>
+            <h3>Summer Romance</h3>
+            <p>Lakeside dining, water activities, sunset cruises, and private hot tub access.</p>
+            <a href="#">Explore Package...</a>
         </div>
-    </header>
-</body>
-</html>
+    </div>
+    <div class="col-span-full why-us-img">
+        <img src="images/fall-package.jpg" alt="fall package">
+        <div>
+            <h3>Fall Colours Getaway</h3>
+            <p>Experience breathtaking colours, hiking, and seasonal gourmet dining.</p>
+            <a href="#">Explore Package...</a>
+        </div>
+    </div>
+    <div class="col-span-full why-us-img">
+        <img src="images/winter-package.jpg" alt="winter package">
+        <div>
+            <h3>Winter Wonderland</h3>
+            <p>Private fireplaces, spa access, winter sports, and cozy evenings together.</p>
+            <a href="#">Explore Package...</a>
+        </div>
+    </div>
+</section>
+
+</main>
+
+<footer id="main-footer" class="grid-con">
+    <div id="main-footer-contact-info" class="col-span-full">
+        <h3>Couples Resort</h3>
+        <p>1198 Osprey Rd, (End of)<br>Minden, Soyers Lake, ON<br>K0M 2K0</p>
+        <p>Toll Free:+1 877 201-1156<br>FAX:+1 613 638 2217</p>
+    </div>
+    <p id="price-policy" class="col-span-full">©2013 Couples Resort Inc.</p>
+</footer>
+
+</div>
 </body>
 </html>
