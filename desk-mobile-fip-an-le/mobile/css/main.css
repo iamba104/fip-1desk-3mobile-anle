@@ -1,20 +1,3 @@
-/* 
-
-    CSS Guide
-
-    1. Web Fonts
-    2. General Styles
-    3. Header
-    4. Main Hero Image
-    5. Why Couples Resort
-    6. About & FAQ
-    7. Contact Form
-    8. Footer
-
-*/
-
-/* 1. --- Web Fonts --- */
-
 @font-face {
     font-family: 'ceragr-regularuploaded_file';
     src: url('../fonts/cera-gr-webfont.woff2') format('woff2'),
@@ -31,9 +14,6 @@
     font-style: normal;
 }
 
-/* 2. ---General Styles--- */
-
-/* outline sits outside the border, but it does not take up space. It’s more like a visual effect painted around the element. */
 #mobile-outline {
    outline: 20px solid #333;
    width: 412px;
@@ -70,8 +50,6 @@ body {
     color: #9a2018;
 }
 
-/* 3. ---Header--- */
-
 #main-nav label img {
 	background: url(../images/burger.svg) center no-repeat;
 	border: 0px;
@@ -104,19 +82,15 @@ body {
     display: none;
 }
 
-/* The general sibling combinator ~ means: “Select any element that is a sibling (shares the same parent) and comes after the target element in the DOM.” */
 
-/* When the checkbox is checked, target the <ul id="burger-con"> that comes after it in the markup. */
  #main-nav input:checked ~ #burger-con {
     display: block;
  }
 
- /* When the checkbox is checked, target the <img> inside the <label> that comes after it. */
  #main-nav input:checked ~ label img{
     transform: rotate(90deg);
  }
 
-/* 4. ---Main Hero Image--- */
 
 #main-hero {
     margin-top: 20px;
@@ -337,7 +311,6 @@ body {
     margin-bottom: 20px;
  }
  
-/* 7. ---Contact Form--- */
 
 #contact-form-text p {
     border-top: solid 3px #CF6666;
@@ -389,7 +362,6 @@ body {
     border-radius: 0;
  }
 
-/* .8 --- Footer --- */
 
 #main-footer {
     background-image: url(../images/footer-bg.jpg);
