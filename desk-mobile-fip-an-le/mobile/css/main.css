@@ -162,23 +162,81 @@ body {
  .fas {
     font-size: 50px;
     color: #9a2018;
-    /* margin: 0 auto; */
-    /* float: left; */
+    margin: 0 auto;
+    float: left;
  }
  
  .fa-mobile-alt {
-    /* margin-left: 50px; */
+    margin-left: 50px;
     margin-right: 13px;
     margin-bottom: 20px;
  }
  
  .fa-map-marker-alt {
-    /* margin-left: 47px; */
+    margin-left: 47px;
     margin-right: 10px;
  }
  
+#introduction {
+   display: center;
+   padding-top: 30px;
+   padding-left: auto;
+ }
 
-/* 5. --- Why Couples Resort--- */
+.description {
+   padding-top: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   line-height: 22px;
+}
+
+#room1 {
+   margin-top: 20px;
+   border: #9a2018 solid 2px;
+   padding: 10px;
+   border-radius: 5px;
+   overflow: auto;
+}
+
+#room2 {
+   margin-top: 20px;
+   border: #9a2018 solid 2px;
+   padding: 10px;
+   border-radius: 5px;
+   overflow: auto;
+}
+
+#room3 {
+   margin-top: 20px;
+   border: #9a2018 solid 2px;
+   padding: 10px;
+   border-radius: 5px;
+   overflow: auto;
+}
+
+#room4 {
+   margin-top: 20px;
+   border: #9a2018 solid 2px;
+   padding: 10px;
+   border-radius: 5px;
+   overflow: auto;
+}
+
+#room6 {
+   margin-top: 20px;
+   border: #9a2018 solid 2px;
+   padding: 10px;
+   border-radius: 5px;
+   overflow: auto;
+}
+
+#winter-act {
+   margin: 20px 0 20px 0;
+   border: #9a2018 solid 2px;
+   padding: 10px;
+   border-radius: 5px;
+   overflow: auto;
+}
 
 #why-choose-us-nav {
     padding-top: 20px;
@@ -202,7 +260,7 @@ body {
     border-left: #9a2018 solid 5px;
   }
 
-/* first-of-type will match the first occurrence of a specified element, even if it doesn’t come absolutely first in the HTML. */
+
 #why-options section:first-of-type  {
     border-top: solid 3px #CF6666;
     margin-top: 15px;
@@ -253,8 +311,6 @@ body {
     color: #fff;
     text-decoration: underline;
  }
-
- /* 6. ---About & FAQ --- */
 
 #about-text-group1 {
     border-top: solid 3px #CF6666;
@@ -348,50 +404,62 @@ body {
  }
  
  #contact-form-fields-right input[type="submit"] {
-    padding: 12px 28px;
-    background: #9a2018;
-    color: #fff;
-    border: none;
-    transition: all 200ms ease-in;
-    width: 150px;
-    align-self: flex-end;
+   padding: 12px 28px;
+   background: #9a2018;
+   color: #fff;
+   border: none;
+   transition: all 200ms ease-in;
+   width: 150px;
+   align-self: flex-end;
  }
 
  #contact-form-fields-right input[type="submit"]:hover {
-    background-color: #626262;
-    border-radius: 0;
+   background-color: #626262;
+   border-radius: 0;
  }
 
 
 #main-footer {
-    background-image: url(../images/footer-bg.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
-    background-position: center;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 40px;
-    padding-bottom: 80px;
+   background-image: url(../images/footer-bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   color: #fff;
+   font-size: 12px;
+   margin-top: 100px;
+   padding-bottom: 80px;
  }
 
  #main-footer-contact-info h3 {
-    font-size: 28px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    font-family: 'ceragr-regularuploaded_file', arial, sans-serif;
+   font-size: 28px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   font-family: 'ceragr-regularuploaded_file', arial, sans-serif;
  }
 
  #main-footer-contact-info p {
-    line-height: 22px;
+   line-height: 22px;
  }
 
  #main-footer nav {
-    display: none;
+   display: none;
  }
 
  #price-policy {
-    border-top: solid 3px #CF6666;
-    margin-top: 15px;
-    padding-top: 30px;
-    line-height: 22px;
+   border-top: solid 3px #CF6666;
+   margin-top: 15px;
+   padding-top: 30px;
+   line-height: 22px;
  }
+
+#introduction {
+   display: center;
+   padding-top: 30px;
+   padding-left: auto;
+}
+
+.park {
+   margin-right: auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}  
